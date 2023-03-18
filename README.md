@@ -1,3 +1,3 @@
-# CPP-Programming
+# Competitive-Programming
 
 - Practicing.....
