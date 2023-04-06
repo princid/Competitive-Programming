@@ -8,16 +8,10 @@ int main() {
 	while(T--){
 	    int A,B,C,X;
 	    cin >> A >> B >> C >> X;
-	    
-	    int P = A+B;
-	    int Q = A+C;
-	    int R = B+C;
-	    
-	    if(P>=X || Q>=X || R>=X){
+	    if(A+B >= X || B+C >= X || C+A >= X){
 	        cout << "YES" << endl;
 	    }
-	    else
-	        cout << "NO" << endl;
+	    else cout << "NO" << endl;
 	}
 	return 0;
 }
